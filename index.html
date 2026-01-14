@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelajak education</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <linkf
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="fonts-[Poppins]">
+    <header>
+        <nav class="flex justify-between items-center w-[92%]  mx-auto shadow-md rounded-xl pl-5 pr-5">
+            <div class="logo">
+                <img class="w-16" src="./pictures/50 (1).png" alt="">
+            </div>
+            <div
+                class="nav-Links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] h-22 md:w-auto w-full flex items-center px-5  ">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="hover:text-gray-500 hover:text-shadow-lg" href="#">Ustozlar</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:text-shadow-lg" href="#">Kurs narxlari</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:text-shadow-lg" href="#">Natijalar</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:text-shadow-lg" href="#">Ijtimoiy tarmoqlar</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-500 hover:text-shadow-lg" href="#">Yordam</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-yellow-600 px-5 py-2 rounded-full hover:bg-amber-600">Kirish</button>
+                <ion-icon onclick="ontoggleMenu(this)" name="menu"
+                    class="text-3xl cursor-pointer md:hidden "></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="py-20 md:py-35">
+            <div class="container">
+                <div class="flex flex-col items-center gap-5 xl:pl-30 sm:pl-12 sm:items-start text-center sm:text-left">
+                    <div class="w-full space-y-5">
+                        <h1 class="text-3xl md:text-4xl xl:text-5xl font-bold">
+                            <span class="text-amber-500">Kelajak </span> seni
+                                <br>
+                                qo`lingda
+                            <span class="text-amber-500">Kelajak </span>bilan <br>
+                            bo'l
+                        </h1>
+
+                        <p class="text-slate-500 font-Lobster">
+                            Kelajak o'quvmarkazi sen uchun <br>
+                            o`z bilimlarini berishga tayyor <br>
+                            Sifatli talim ol va maqsadga erish! <br>
+                            Kelajakka birinchi qadamingni qo`y.  <br>
+                        </p>
+                        <div class="flex  flex-col gap-2 sm:flex-row sm:gap-5 mt-5">
+                            <button class=" btn border border-yellow-500 bg-yellow-600 hover:bg-amber-500 rounded-md px-10 py-2 duration-300">
+                                <span>Kurslar  </span>
+                            </button>
+                            <!-- <button class="btn border border-yellow-500 bg-yellow-500 rounded-md px-5 py-2 duration-300 ">
+                                <span>Kirish  </span>
+                            </button> -->
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <main>
+        <section class="hero bg-cover bg-center xl:h-screen xl:pl-20 sm:pl-12 pt-10">
+            <div class="hero-wrapper max-w-7xl mx-auto flex h-full items-center">
+                <div class="hero-left text-black space-y-6 ">
+                    <div class="title text-5xl font-bold">
+                        <p>Discover</p>
+                        <p>The World</p>
+                    </div>
+                    <div class="description text-lg max-w-md leading-relaxed">
+                        Let's embark on a global journey immersing ourselves in diverse cultures and creating unforgettable memories as we travel the world!
+                    </div>
+                    <div class="hero-btns flex gap-5 ">
+                        <button class="explore-btn bg-yellow-600 text-white px-6 py-3 rounded-full hover:bg-yellow-700 transition">Explore More</button>
+                        <button class="watch-btn flex items-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-full hover:bg-gray-900 transition">
+                            <img class="w-6" src="./pictures/50 (1).png" alt="">
+                            Watch Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> -->
+    <!-- <main class="flex-auto flex flex-col">
+        <section class="bg-secondary pt-[100px] pb-6">
+            <div class="container md:pb-0 pb-6 relative">
+                <div class="grid grid-cols-12 gap-5 w-full items-center justify-between">
+                    <div class="col-span-12 lg:col-span-5 flex flex-col relative z-10">
+                        <h1 class="text-black text-[45px] lg:text-left text-center lg:text-[65px] font-extrabold lg:whitespace-nowrap"
+                            style="text-shadow: 3px 3px #0076B7">
+                            General English
+                        </h1>
+                        <div
+                            class="flex flex-col lg:items-start items-center lg:text-left text-center tracking-tight text-2xl md:text-[30px] text-black">
+                            <span class="leading-8 lg:whitespace-nowrap">Ingliz tilini zamonaviy metodlar yordamida <br>
+                                tez va samarali o'rganing</span>
+                        </div>
+
+
+
+                    </main>     -->
+                        <!-- <header class="bg-white shadow ">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-blue-600 ">
+                    <img src="./pictures/50 (1).png" alt="" class="h-12 w-auto">
+                </div>
+                <nav class="hidden md:flex space-x-6 ">
+                    <a href="#" class="text-gray-800 hover:text-orange-600">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <span>Register</span>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600">
+                        <i class="fa-solid fa-id-card-clip"></i>
+                        <span>Contect us</span>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-orange-600 ">
+                        <i class="fa-solid fa-images"></i>
+                        <span>Blog</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>    -->
+                        <script>
+                            const navLink = document.querySelector('.nav-Links')
+                            function ontoggleMenu(e) {
+                                e.name = e.name === 'menu' ? 'close' : 'menu'
+                                navLink.classList.toggle('top-[9%]')
+                            }
+                        </script>
+</body>
+
+</html>
